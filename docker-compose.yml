@@ -1,0 +1,7 @@
+version : "2.3"
+
+services : 
+  web :
+    image : todo-app
+    ports :
+       - "8000:8000"
